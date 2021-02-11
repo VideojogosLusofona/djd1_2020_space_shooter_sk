@@ -2,7 +2,7 @@
 
 This is the starting project for the DJD1 classes drag'and'drop shooter.
 
-![Image](https://github.com/VideojogosLusofona/djd1_2020_space_shooter_sk/raw/master/Screenshots/gameplay.png)
+![Image](https://github.com/VideojogosLusofona/djd1_2020_space_shooter_sk/Screenshots/gameplay.png)
 
 The idea of the workshop is to show how to make a simple shoot'em'up using pre-built scripts.
 
