@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float    acceleration = 10000.0f;
-    public float    maxSpeed = 400.0f;
-    public float    drag = 0.8f;
-    public Vector2  limit = new Vector2(600.0f, 300.0f);
+    [SerializeField] private float    acceleration = 10000.0f;
+    [SerializeField] private float    maxSpeed = 400.0f;
+    [SerializeField] private float    drag = 0.8f;
+    [SerializeField] private Vector2  limit = new Vector2(600.0f, 300.0f);
 
-    Rigidbody2D rigidBody;
-    Animator    anim;
-    Vector3     moveVector;
-    Vector3     currentVelocity;
+    private Rigidbody2D rigidBody;
+    private Animator    anim;
+    private Vector3     moveVector;
+    private Vector3     currentVelocity;
 
     void Awake()
     {
