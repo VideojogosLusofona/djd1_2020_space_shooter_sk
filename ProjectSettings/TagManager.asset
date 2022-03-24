@@ -6,6 +6,7 @@ TagManager:
   tags:
   - GameArea
   - Enemy
+  - PlayerShot
   layers:
   - Default
   - TransparentFX
@@ -42,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1959573059
+    locked: 0
+  - name: Foreground
+    uniqueID: 3542822163
+    locked: 0
+  - name: FX
+    uniqueID: 1258307171
     locked: 0

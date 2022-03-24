@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 637643379136425770}
   - component: {fileID: 9096086527463599675}
   - component: {fileID: 8217717448610737038}
+  - component: {fileID: -3266288702590589353}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -75,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -752145133
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -5893381119158548444, guid: 5659512e167fc3b41ba0292157943854,
     type: 3}
@@ -187,4 +188,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tag: Player
-  effect: {fileID: 0}
+  effect: {fileID: 272592144223762741, guid: 89ab56b80ffc0614aac12ee4eeeb384d, type: 3}
+--- !u!114 &-3266288702590589353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5046468583442693852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae0a6cd04713724985cfe65a782222d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tag: PlayerShot
+  effect: {fileID: 272592144223762741, guid: 89ab56b80ffc0614aac12ee4eeeb384d, type: 3}

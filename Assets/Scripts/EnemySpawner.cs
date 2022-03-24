@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public Transform[]  spawnPoints;
-    public float        firstSpawnTime = 4.0f;
-    public float        nextSpawnTime = 2.0f;
-    public GameObject[] enemyPrefab;
+    [SerializeField] private Transform[]  spawnPoints;
+    [SerializeField] private float        firstSpawnTime = 4.0f;
+    [SerializeField] private float        nextSpawnTime = 2.0f;
+    [SerializeField] private GameObject[] enemyPrefab;
 
     float   timer;
 

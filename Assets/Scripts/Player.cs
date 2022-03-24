@@ -9,14 +9,12 @@ public class Player : MonoBehaviour
     [SerializeField] private float    drag = 0.8f;
     [SerializeField] private Vector2  limit = new Vector2(600.0f, 300.0f);
 
-    private Rigidbody2D rigidBody;
     private Animator    anim;
     private Vector3     moveVector;
     private Vector3     currentVelocity;
 
     void Awake()
     {
-        rigidBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
 
